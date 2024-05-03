@@ -50,7 +50,7 @@ case $CHOICE in
 esac
 }
 
-echo "Veuillez entrer un numéro selon l'action que vous vous souhaitez faire."
+echo "Veuillez entrer un numéro selon l'action que vous souhaitez faire."
 echo " "
 echo "1.   Création d'un utilisateur"
 echo "2.   Suppression d'un utilisateur"
