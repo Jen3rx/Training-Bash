@@ -121,6 +121,7 @@ elif [ "$ENTRER_UTTILISATEUR" = "D" ]
 
 # Mot clé: then
 then
+
     #J'affiche le texte "Division".
     echo "Division:"
 
@@ -130,7 +131,7 @@ then
     # Je récupère la variable "CHIFFRE2" à l'aide de "read -p".
     read -p "Donne moi un chiffre: " CHIFFRE2
 
-# J'appelle ma fonction.
+    # J'appelle ma fonction.
     DIVISION
 
 
