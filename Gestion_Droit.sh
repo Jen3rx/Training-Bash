@@ -13,13 +13,13 @@ function VERIFICATION_FILE () {
     # Mot clé: do
     do
 
-        # Je crée ma condition que si ma variable "NAME" est é gal à "i" alors
+        # Je crée ma condition que si ma variable "NAME" est égal à "i" alors
         if [ "${NAME}" = "${i}" ]
 
         # Mot clé: then
         then 
 
-            # Je crée ma variable avec la valeur "false"
+            # Je crée ma variable avec la valeur "true"
             FILE_EXIST=true
 
             # J'affiche la phrase "Le fichier ${NAME} existe." 
@@ -37,7 +37,7 @@ function VERIFICATION_FILE () {
     # Je crée ma condition que si la variable "FILE_EXIST" est égal à "false" alors
     if [ "${FILE_EXIST}" = "false" ]
 
-    Mot clé: then
+    # Mot clé: then
     then 
 
         # J'affiche la phrase "Ce fichier semble ne pas exister." 
